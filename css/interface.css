@@ -1,0 +1,42 @@
+body {
+    display:flex;
+  }
+  button, input {
+    border: none;
+    border: 1px solid #000;
+  }
+  .Sauvgarder{
+    background-color: #bc863c;
+    position: relative;
+  }
+  .Sauvgarder > div{
+      padding: 20px;
+  }
+  #square {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  .Sauvgarder > button {
+    padding: 10px 8px;
+    width: 100%;
+    position: absolute;
+    bottom : 0;
+    background-color: #005826;
+    color: #fff;
+  }
+  .formulaire {
+    background : #015b7e;
+    text-align:center;
+    padding: 10px 40px;
+  }
+  .round-btn {
+    border-radius : 100%;
+    padding: 10px 15px;
+  }
+  input[type=text]{
+    padding: 10px 8px;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
